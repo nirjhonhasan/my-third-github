@@ -21,28 +21,44 @@
 
 
         <label for="dob">Date of birth: </label>
-        <input type="date" name="dob" id="dob">
+        <input type="date" name="dob" id="dob"> <br><br>
 
 
+        <fieldset>
+            <h3>Gender: </h3>
+            
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
 
-        <h3>Gender: </h3>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male">
+            
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
 
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female">
-
-        <label for="others">Others</label>
-        <input type="radio" name="gender" id="others"> <br><br>
+            
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+        </fieldset>
+         <br><br>
+         
 
 
         <label for="paymentOption">Payment Option: </label>
         <select name="paymentOption" id="paymentOption">
-            <option value="">Mada</option>
-            <option value="">Visa Card</option>
-            <option value="">Master Card</option>
-            <option value="">Apple Pay</option>
+            <option value="visa">Mada</option>
+            <option value="visacard">Visa Card</option>
+            <option value="mastercard">Master Card</option>
+            <option value="applepay">Apple Pay</option>
         </select><br><br>
+
+
+        <h4>Are your CSE student ?</h4>
+        <label for="cse">yes</label>
+        <input type="checkbox" name="cse" id="cseJustify">
+
+        <label for="nocse">No</label>
+        <input type="checkbox" name="nocse" id="cseJustify">
+        <br><br>
+
 
         <label for="comment">Comment your openion in the below:</label><br>
         <textarea name="comment" id="comment" rows="4" cols="30"></textarea><br><br>
@@ -51,6 +67,16 @@
         <input type="submit" name="submit" id="submit">
         <input type="reset">
 
-    </form>
+    </form> <hr><br>
+
+    <h3>Most Selling Products</h3><br>
+
+    <img src="/headphone.jpg" alt="headphone" width="200">
+    <h4>Extrem Gamming Headphone in Bangladesh</h4>
+    <del>$599</del> <p>$499</p>
+    <button>Purchase Now</button>
+
+
+
 </body>
 </html>
